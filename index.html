@@ -1,1 +1,372 @@
-@layer properties{@supports (((-webkit-hyphens:none)) and (not (margin-trim:inline))) or ((-moz-orient:inline) and (not (color:rgb(from red r g b)))){*,:before,:after,::backdrop{--tw-rotate-x:initial;--tw-rotate-y:initial;--tw-rotate-z:initial;--tw-skew-x:initial;--tw-skew-y:initial;--tw-border-style:solid;--tw-font-weight:initial;--tw-blur:initial;--tw-brightness:initial;--tw-contrast:initial;--tw-grayscale:initial;--tw-hue-rotate:initial;--tw-invert:initial;--tw-opacity:initial;--tw-saturate:initial;--tw-sepia:initial;--tw-drop-shadow:initial;--tw-drop-shadow-color:initial;--tw-drop-shadow-alpha:100%;--tw-drop-shadow-size:initial}}}@layer theme{:root,:host{--font-sans:ui-sans-serif, system-ui, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";--font-mono:ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;--color-blue-600:oklch(54.6% .245 262.881);--color-gray-600:oklch(44.6% .03 256.802);--spacing:.25rem;--text-2xl:1.5rem;--text-2xl--line-height:calc(2 / 1.5);--text-3xl:1.875rem;--text-3xl--line-height: 1.2 ;--font-weight-bold:700;--radius-lg:.5rem;--radius-2xl:1rem;--default-font-family:var(--font-sans);--default-mono-font-family:var(--font-mono)}}@layer base{*,:after,:before,::backdrop{box-sizing:border-box;border:0 solid;margin:0;padding:0}::file-selector-button{box-sizing:border-box;border:0 solid;margin:0;padding:0}html,:host{-webkit-text-size-adjust:100%;tab-size:4;line-height:1.5;font-family:var(--default-font-family,ui-sans-serif, system-ui, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji");font-feature-settings:var(--default-font-feature-settings,normal);font-variation-settings:var(--default-font-variation-settings,normal);-webkit-tap-highlight-color:transparent}hr{height:0;color:inherit;border-top-width:1px}abbr:where([title]){-webkit-text-decoration:underline dotted;text-decoration:underline dotted}h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight:inherit}a{color:inherit;-webkit-text-decoration:inherit;text-decoration:inherit}b,strong{font-weight:bolder}code,kbd,samp,pre{font-family:var(--default-mono-font-family,ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace);font-feature-settings:var(--default-mono-font-feature-settings,normal);font-variation-settings:var(--default-mono-font-variation-settings,normal);font-size:1em}small{font-size:80%}sub,sup{vertical-align:baseline;font-size:75%;line-height:0;position:relative}sub{bottom:-.25em}sup{top:-.5em}table{text-indent:0;border-color:inherit;border-collapse:collapse}:-moz-focusring{outline:auto}progress{vertical-align:baseline}summary{display:list-item}ol,ul,menu{list-style:none}img,svg,video,canvas,audio,iframe,embed,object{vertical-align:middle;display:block}img,video{max-width:100%;height:auto}button,input,select,optgroup,textarea{font:inherit;font-feature-settings:inherit;font-variation-settings:inherit;letter-spacing:inherit;color:inherit;opacity:1;background-color:#0000;border-radius:0}::file-selector-button{font:inherit;font-feature-settings:inherit;font-variation-settings:inherit;letter-spacing:inherit;color:inherit;opacity:1;background-color:#0000;border-radius:0}:where(select:is([multiple],[size])) optgroup{font-weight:bolder}:where(select:is([multiple],[size])) optgroup option{padding-inline-start:20px}::file-selector-button{margin-inline-end:4px}::placeholder{opacity:1}@supports (not ((-webkit-appearance:-apple-pay-button))) or (contain-intrinsic-size:1px){::placeholder{color:currentColor}@supports (color:color-mix(in lab,red,red)){::placeholder{color:color-mix(in oklab,currentcolor 50%,transparent)}}}textarea{resize:vertical}::-webkit-search-decoration{-webkit-appearance:none}::-webkit-date-and-time-value{min-height:1lh;text-align:inherit}::-webkit-datetime-edit{display:inline-flex}::-webkit-datetime-edit-fields-wrapper{padding:0}::-webkit-datetime-edit{padding-block:0}::-webkit-datetime-edit-year-field{padding-block:0}::-webkit-datetime-edit-month-field{padding-block:0}::-webkit-datetime-edit-day-field{padding-block:0}::-webkit-datetime-edit-hour-field{padding-block:0}::-webkit-datetime-edit-minute-field{padding-block:0}::-webkit-datetime-edit-second-field{padding-block:0}::-webkit-datetime-edit-millisecond-field{padding-block:0}::-webkit-datetime-edit-meridiem-field{padding-block:0}::-webkit-calendar-picker-indicator{line-height:1}:-moz-ui-invalid{box-shadow:none}button,input:where([type=button],[type=reset],[type=submit]){appearance:button}::file-selector-button{appearance:button}::-webkit-inner-spin-button{height:auto}::-webkit-outer-spin-button{height:auto}[hidden]:where(:not([hidden=until-found])){display:none!important}}@layer components;@layer utilities{.static{position:static}.start{inset-inline-start:var(--spacing)}.container{width:100%}@media(min-width:40rem){.container{max-width:40rem}}@media(min-width:48rem){.container{max-width:48rem}}@media(min-width:64rem){.container{max-width:64rem}}@media(min-width:80rem){.container{max-width:80rem}}@media(min-width:96rem){.container{max-width:96rem}}.mb-2{margin-bottom:calc(var(--spacing) * 2)}.mb-4{margin-bottom:calc(var(--spacing) * 4)}.mb-6{margin-bottom:calc(var(--spacing) * 6)}.flex{display:flex}.hidden{display:none}.inline-block{display:inline-block}.w-full{width:100%}.transform{transform:var(--tw-rotate-x,) var(--tw-rotate-y,) var(--tw-rotate-z,) var(--tw-skew-x,) var(--tw-skew-y,)}.flex-col{flex-direction:column}.items-center{align-items:center}.justify-between{justify-content:space-between}.gap-8{gap:calc(var(--spacing) * 8)}.rounded-2xl{border-radius:var(--radius-2xl)}.rounded-lg{border-radius:var(--radius-lg)}.border{border-style:var(--tw-border-style);border-width:1px}.object-cover{object-fit:cover}.p-5{padding:calc(var(--spacing) * 5)}.p-8{padding:calc(var(--spacing) * 8)}.px-6{padding-inline:calc(var(--spacing) * 6)}.py-2{padding-block:calc(var(--spacing) * 2)}.text-2xl{font-size:var(--text-2xl);line-height:var(--tw-leading,var(--text-2xl--line-height))}.text-3xl{font-size:var(--text-3xl);line-height:var(--tw-leading,var(--text-3xl--line-height))}.font-bold{--tw-font-weight:var(--font-weight-bold);font-weight:var(--font-weight-bold)}.text-blue-600{color:var(--color-blue-600)}.text-gray-600{color:var(--color-gray-600)}.underline{text-decoration-line:underline}.filter{filter:var(--tw-blur,) var(--tw-brightness,) var(--tw-contrast,) var(--tw-grayscale,) var(--tw-hue-rotate,) var(--tw-invert,) var(--tw-saturate,) var(--tw-sepia,) var(--tw-drop-shadow,)}@media(min-width:48rem){.md\:w-\[45\%\]{width:45%}.md\:w-\[55\%\]{width:55%}.md\:flex-row{flex-direction:row}}}*,:before,:after{box-sizing:border-box;margin:0;padding:0}body{color:#2c1f1c;-webkit-font-smoothing:antialiased;background:#f9f5f2;font-family:Georgia,serif;line-height:1.7}.btn-primary{color:#f9f5f2;letter-spacing:.5px;cursor:pointer;background:#8b443c;border:none;border-radius:2px;padding:16px 40px;font-family:Helvetica Neue,Arial,sans-serif;font-size:15px;font-weight:600;text-decoration:none;transition:background .2s;display:inline-block}.btn-primary:hover,.btn-primary:focus,.btn-primary:visited{color:#f9f5f2;text-decoration:none}.btn-primary:hover{background:#7a3a33}section{padding:72px 24px}.container{max-width:760px;margin:0 auto}.container-wide{max-width:960px;margin:0 auto}.section-title{color:#2c1f1c;margin-bottom:8px;font-size:clamp(20px,3vw,32px);font-weight:400}.hero{color:#f9f5f2;text-align:center;background:#386060;padding:80px 24px 72px}.hero-tag{letter-spacing:2px;text-transform:uppercase;color:#c6a899;margin-bottom:24px;font-family:Helvetica Neue,Arial,sans-serif;font-size:12px}.hero h1{color:#f9f5f2;max-width:760px;margin:0 auto 24px;font-size:clamp(26px,5vw,50px);font-weight:400;line-height:1.25}.hero h1 em{color:#e1c9be;font-style:italic}.hero p{color:#c6a899;max-width:560px;margin:0 auto 40px;font-size:18px;font-style:italic;line-height:1.8}.pain{background:#e1c9be}.pain h2{color:#2c1f1c;margin-bottom:32px;font-size:clamp(22px,3.5vw,34px);font-weight:400;line-height:1.35}.pain p{color:#4a3530;margin-bottom:16px;font-size:17px}.pain-list{margin:24px 0 32px;padding:0;list-style:none}.pain-list li{color:#4a3530;border-bottom:.5px solid #c6a899;padding:10px 0 10px 24px;font-size:16px;position:relative}.pain-list li:before{content:"—";color:#8b443c;position:absolute;left:0}.pain-list li:last-child{border-bottom:none}.warning-box{color:#f9f5f2;background:#386060;border-radius:4px;margin:40px 0;padding:32px 36px}.warning-box h3{color:#e1c9be;margin-bottom:16px;font-size:20px;font-weight:400}.warning-box p{color:#c6a899;margin-bottom:12px;font-size:16px}.warning-box ul{margin-top:16px;padding:0;list-style:none}.warning-box ul li{color:#c6a899;padding:6px 0 6px 20px;font-size:15px;position:relative}.warning-box ul li:before{content:"·";color:#e1c9be;font-size:20px;line-height:1;position:absolute;left:0}.warning-cost{font-style:italic;color:#e1c9be!important;margin-top:20px!important}.product{background:#f9f5f2}.product h2{text-align:center;color:#2c1f1c;margin-bottom:12px;font-size:clamp(22px,3.5vw,36px);font-weight:400}.product .subtitle{color:#8b443c;text-align:center;margin-bottom:48px;font-size:16px;font-style:italic}.ebook-showcase{flex-wrap:wrap;justify-content:center;align-items:center;gap:48px;margin:48px 0 56px;display:flex}.ebook-img{object-fit:cover;border-radius:8px;width:220px;height:220px;box-shadow:6px 8px 24px #3860602e}.ebook-text{max-width:400px}.ebook-text h3{color:#386060;margin-bottom:16px;font-size:22px;font-weight:400}.ebook-text p{color:#4a3530;font-size:16px;line-height:1.8}.how-works{grid-template-columns:repeat(auto-fit,minmax(180px,1fr));gap:24px;margin:0 0 8px;display:grid}.hw-item{text-align:center;border-top:2px solid #c6a899;padding:28px 20px}.hw-item h4{letter-spacing:1px;text-transform:uppercase;color:#8b443c;margin-bottom:8px;font-family:Helvetica Neue,Arial,sans-serif;font-size:12px;font-weight:600}.hw-item p{color:#6b5550;font-size:14px}.deliverables{background:#e1c9be}.d-grid{grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:20px;margin-top:40px;display:grid}.d-card{background:#f9f5f2;border-left:3px solid #8b443c;border-radius:4px;padding:28px 24px}.d-card h4{color:#2c1f1c;margin-bottom:8px;font-family:Helvetica Neue,Arial,sans-serif;font-size:14px;font-weight:600}.d-card p{color:#6b5550;font-size:14px;line-height:1.6}.d-tag{letter-spacing:1px;text-transform:uppercase;color:#e1c9be;background:#386060;border-radius:2px;margin-bottom:10px;padding:3px 10px;font-family:Helvetica Neue,Arial,sans-serif;font-size:11px;font-weight:600;display:inline-block}.aulas{background:#386060}.aulas h2{color:#f9f5f2;text-align:center;margin-bottom:8px;font-size:clamp(20px,3vw,32px);font-weight:400}.aulas .subtitle{color:#c6a899;text-align:center;margin-bottom:48px;font-size:15px;font-style:italic}.aulas-grid{grid-template-columns:repeat(auto-fit,minmax(200px,1fr));gap:16px;display:grid}.aula-item{border:.5px solid #c6a89959;border-radius:4px;padding:24px 20px}.aula-num{letter-spacing:2px;text-transform:uppercase;color:#c6a899;margin-bottom:8px;font-family:Helvetica Neue,Arial,sans-serif;font-size:11px;display:block}.aula-item h4{color:#f9f5f2;margin-bottom:8px;font-size:15px;font-weight:400}.aula-item p{color:#c6a899;font-size:13px;line-height:1.6}.results{background:#f9f5f2}.results h2{text-align:center;color:#2c1f1c;margin-bottom:48px;font-size:clamp(20px,3vw,32px);font-weight:400}.r-grid{grid-template-columns:repeat(auto-fit,minmax(200px,1fr));gap:16px;display:grid}.r-item{text-align:center;background:#e1c9be;border-radius:4px;padding:24px}.r-item p{color:#4a3530;font-size:15px;font-style:italic}.objections{background:#e1c9be}.objections .section-title{margin-bottom:32px}.obj-list{flex-direction:column;gap:20px;display:flex}.obj-item{background:#f9f5f2;border-left:3px solid #8b443c;border-radius:4px;padding:24px 28px}.obj-question{color:#8b443c;margin-bottom:8px;font-family:Helvetica Neue,Arial,sans-serif;font-size:14px;font-weight:600}.obj-answer{color:#4a3530;font-size:15px;line-height:1.7}.bio{background:#f9f5f2}.bio-inner{grid-template-columns:auto 1fr;align-items:start;gap:48px;display:grid}@media(max-width:600px){.bio-inner{grid-template-columns:1fr}}.bio-photo{object-fit:cover;object-position:top center;border-radius:4px;flex-shrink:0;width:200px;height:260px}.bio-content h2{color:#2c1f1c;margin-bottom:20px;font-size:clamp(20px,3vw,30px);font-weight:400}.bio-content p{color:#4a3530;margin-bottom:14px;font-size:16px;line-height:1.8}.bio-quote{font-style:italic;color:#8b443c!important}.crp{color:#8b443c;letter-spacing:1px;font-family:Helvetica Neue,Arial,sans-serif;font-size:12px}.pricing{text-align:center;background:#386060;padding:80px 24px}.pricing h2{color:#f9f5f2;margin-bottom:16px;font-size:clamp(22px,3.5vw,40px);font-weight:400}.pricing .subtitle{color:#c6a899;margin-bottom:48px;font-family:Helvetica Neue,Arial,sans-serif;font-size:16px;font-style:italic}.price-card{background:#00000026;border:1px solid #c6a8994d;border-radius:8px;max-width:480px;margin:0 auto;padding:40px 48px}.price-old{color:#c6a899;margin-bottom:8px;font-family:Helvetica Neue,Arial,sans-serif;font-size:13px;text-decoration:line-through}.price-badge{color:#f9f5f2;letter-spacing:1.5px;text-transform:uppercase;background:#8b443c;border-radius:2px;margin-bottom:24px;padding:4px 14px;font-family:Helvetica Neue,Arial,sans-serif;font-size:11px;font-weight:700;display:inline-block}.price-main{color:#f9f5f2;font-family:Helvetica Neue,Arial,sans-serif;font-size:52px;font-weight:400;line-height:1}.price-main span{vertical-align:top;margin-top:10px;font-size:22px;display:inline-block}.price-cents{vertical-align:top;margin-top:10px;font-size:22px!important}.price-parcelas{color:#c6a899;margin:8px 0 32px;font-family:Helvetica Neue,Arial,sans-serif;font-size:14px}.price-cta{width:100%;margin-bottom:16px;padding:18px;font-size:16px}.price-garantia{color:#c6a899;letter-spacing:.5px;font-family:Helvetica Neue,Arial,sans-serif;font-size:12px}.price-question{color:#e1c9be;max-width:560px;margin:48px auto 0;font-size:18px;font-style:italic;line-height:1.8}footer{text-align:center;background:#2c1f1c;padding:32px 24px}footer p{color:#8b6b60;font-family:Helvetica Neue,Arial,sans-serif;font-size:13px}@property --tw-rotate-x{syntax:"*";inherits:false}@property --tw-rotate-y{syntax:"*";inherits:false}@property --tw-rotate-z{syntax:"*";inherits:false}@property --tw-skew-x{syntax:"*";inherits:false}@property --tw-skew-y{syntax:"*";inherits:false}@property --tw-border-style{syntax:"*";inherits:false;initial-value:solid}@property --tw-font-weight{syntax:"*";inherits:false}@property --tw-blur{syntax:"*";inherits:false}@property --tw-brightness{syntax:"*";inherits:false}@property --tw-contrast{syntax:"*";inherits:false}@property --tw-grayscale{syntax:"*";inherits:false}@property --tw-hue-rotate{syntax:"*";inherits:false}@property --tw-invert{syntax:"*";inherits:false}@property --tw-opacity{syntax:"*";inherits:false}@property --tw-saturate{syntax:"*";inherits:false}@property --tw-sepia{syntax:"*";inherits:false}@property --tw-drop-shadow{syntax:"*";inherits:false}@property --tw-drop-shadow-color{syntax:"*";inherits:false}@property --tw-drop-shadow-alpha{syntax:"<percentage>";inherits:false;initial-value:100%}@property --tw-drop-shadow-size{syntax:"*";inherits:false}
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8"/>
+<meta name="viewport" content="width=device-width,initial-scale=1"/>
+<style>
+*{margin:0;padding:0;box-sizing:border-box}
+body{font-family:'Georgia',serif;background:#f9f5f2;color:#2c1f1c;line-height:1.7}
+.sans{font-family:'Helvetica Neue',Arial,sans-serif}
+
+/* PALETTE
+  Primary:   #8b443c (terracota) | #386060 (verde-azulado) | #8c5032 (cobre)
+  Secondary: #c6a899 (rosê) | #e1c9be (areia clara)
+*/
+
+.hero{background:#386060;color:#f9f5f2;padding:80px 24px 72px;text-align:center}
+.hero-tag{font-family:'Helvetica Neue',Arial,sans-serif;font-size:12px;letter-spacing:2px;text-transform:uppercase;color:#c6a899;margin-bottom:24px}
+.hero h1{font-size:clamp(26px,5vw,50px);font-weight:400;line-height:1.25;max-width:760px;margin:0 auto 24px;color:#f9f5f2}
+.hero h1 em{font-style:italic;color:#e1c9be}
+.hero p{font-size:18px;max-width:560px;margin:0 auto 40px;color:#c6a899;font-style:italic;line-height:1.8}
+.btn-primary{display:inline-block;background:#8b443c;color:#f9f5f2;font-family:'Helvetica Neue',Arial,sans-serif;font-size:15px;font-weight:600;letter-spacing:0.5px;padding:16px 40px;border-radius:2px;cursor:pointer;border:none;transition:background .2s}
+.btn-primary:hover{background:#7a3a33}
+
+section{padding:72px 24px}
+.container{max-width:760px;margin:0 auto}
+.container-wide{max-width:960px;margin:0 auto}
+
+/* DOR */
+.pain{background:#e1c9be}
+.pain h2{font-size:clamp(22px,3.5vw,34px);font-weight:400;margin-bottom:32px;line-height:1.35;color:#2c1f1c}
+.pain p{font-size:17px;color:#4a3530;margin-bottom:16px}
+.pain-list{list-style:none;margin:24px 0 32px;padding:0}
+.pain-list li{font-size:16px;color:#4a3530;padding:10px 0 10px 24px;border-bottom:0.5px solid #c6a899;position:relative}
+.pain-list li::before{content:"—";position:absolute;left:0;color:#8b443c}
+.pain-list li:last-child{border-bottom:none}
+.warning-box{background:#386060;color:#f9f5f2;border-radius:4px;padding:32px 36px;margin:40px 0}
+.warning-box h3{font-size:20px;font-weight:400;margin-bottom:16px;color:#e1c9be}
+.warning-box p{font-size:16px;color:#c6a899;margin-bottom:12px}
+.warning-box ul{list-style:none;padding:0;margin-top:16px}
+.warning-box ul li{font-size:15px;color:#c6a899;padding:6px 0 6px 20px;position:relative}
+.warning-box ul li::before{content:"·";position:absolute;left:0;color:#e1c9be;font-size:20px;line-height:1}
+
+/* PRODUTO */
+.product{background:#f9f5f2}
+.product h2{font-size:clamp(22px,3.5vw,36px);font-weight:400;text-align:center;margin-bottom:12px;color:#2c1f1c}
+.product .subtitle{font-size:16px;color:#8b443c;text-align:center;margin-bottom:48px;font-style:italic}
+
+/* EBOOK MOCKUP */
+.ebook-showcase{display:flex;align-items:center;gap:48px;margin:48px 0 56px;flex-wrap:wrap;justify-content:center}
+.ebook-img{width:220px;height:220px;border-radius:8px;object-fit:cover;box-shadow:6px 8px 24px rgba(56,96,96,.18)}
+.ebook-text{max-width:400px}
+.ebook-text h3{font-size:22px;font-weight:400;color:#386060;margin-bottom:16px}
+.ebook-text p{font-size:16px;color:#4a3530;line-height:1.8}
+
+.how-works{display:grid;grid-template-columns:repeat(auto-fit,minmax(180px,1fr));gap:24px;margin:0 0 8px}
+.hw-item{text-align:center;padding:28px 20px;border-top:2px solid #c6a899}
+.hw-item h4{font-family:'Helvetica Neue',Arial,sans-serif;font-size:12px;font-weight:600;letter-spacing:1px;text-transform:uppercase;color:#8b443c;margin-bottom:8px}
+.hw-item p{font-size:14px;color:#6b5550}
+
+/* DELIVERABLES */
+.deliverables{background:#e1c9be}
+.d-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:20px;margin-top:40px}
+.d-card{background:#f9f5f2;border-radius:4px;padding:28px 24px;border-left:3px solid #8b443c}
+.d-card h4{font-family:'Helvetica Neue',Arial,sans-serif;font-size:14px;font-weight:600;margin-bottom:8px;color:#2c1f1c}
+.d-card p{font-size:14px;color:#6b5550;line-height:1.6}
+.d-card .d-tag{display:inline-block;font-family:'Helvetica Neue',Arial,sans-serif;font-size:11px;font-weight:600;letter-spacing:1px;text-transform:uppercase;background:#386060;color:#e1c9be;padding:3px 10px;border-radius:2px;margin-bottom:10px}
+
+/* MINI AULAS */
+.aulas{background:#386060}
+.aulas h2{font-size:clamp(20px,3vw,32px);font-weight:400;color:#f9f5f2;text-align:center;margin-bottom:8px}
+.aulas .subtitle{font-size:15px;color:#c6a899;text-align:center;font-style:italic;margin-bottom:48px}
+.aulas-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(200px,1fr));gap:16px}
+.aula-item{border:0.5px solid rgba(198,168,153,.35);border-radius:4px;padding:24px 20px}
+.aula-num{font-family:'Helvetica Neue',Arial,sans-serif;font-size:11px;letter-spacing:2px;text-transform:uppercase;color:#c6a899;margin-bottom:8px;display:block}
+.aula-item h4{font-size:15px;font-weight:400;color:#f9f5f2;margin-bottom:8px}
+.aula-item p{font-size:13px;color:#c6a899;line-height:1.6}
+
+/* RESULTADOS */
+.results{background:#f9f5f2}
+.results h2{font-size:clamp(20px,3vw,32px);font-weight:400;text-align:center;margin-bottom:48px;color:#2c1f1c}
+.r-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(200px,1fr));gap:16px}
+.r-item{background:#e1c9be;border-radius:4px;padding:24px;text-align:center}
+.r-item p{font-size:15px;color:#4a3530;font-style:italic}
+
+/* OBJEÇÕES */
+.objections{background:#e1c9be}
+.obj-list{display:flex;flex-direction:column;gap:20px}
+.obj-item{background:#f9f5f2;border-radius:4px;padding:24px 28px;border-left:3px solid #8b443c}
+.obj-question{font-family:'Helvetica Neue',Arial,sans-serif;font-size:14px;font-weight:600;color:#8b443c;margin-bottom:8px}
+.obj-answer{font-size:15px;color:#4a3530;line-height:1.7}
+
+/* BIO */
+.bio{background:#f9f5f2}
+.bio-inner{display:grid;grid-template-columns:auto 1fr;gap:48px;align-items:start}
+@media(max-width:600px){.bio-inner{grid-template-columns:1fr}}
+.bio-photo{width:200px;height:260px;object-fit:cover;object-position:top center;border-radius:4px;flex-shrink:0}
+.bio-content h2{font-size:clamp(20px,3vw,30px);font-weight:400;margin-bottom:20px;color:#2c1f1c}
+.bio-content p{font-size:16px;color:#4a3530;margin-bottom:14px;line-height:1.8}
+.crp{font-family:'Helvetica Neue',Arial,sans-serif;font-size:12px;color:#8b443c;letter-spacing:1px}
+
+/* PRICING */
+.pricing{background:#386060;text-align:center;padding:80px 24px}
+.pricing h2{font-size:clamp(22px,3.5vw,40px);font-weight:400;color:#f9f5f2;margin-bottom:16px}
+.pricing .subtitle{font-size:16px;color:#c6a899;font-style:italic;margin-bottom:48px}
+.price-card{background:rgba(0,0,0,.15);border:1px solid rgba(198,168,153,.3);border-radius:8px;padding:40px 48px;max-width:480px;margin:0 auto}
+.price-old{font-family:'Helvetica Neue',Arial,sans-serif;font-size:13px;color:#c6a899;margin-bottom:8px;text-decoration:line-through}
+.price-badge{display:inline-block;background:#8b443c;color:#f9f5f2;font-family:'Helvetica Neue',Arial,sans-serif;font-size:11px;font-weight:700;letter-spacing:1.5px;padding:4px 14px;border-radius:2px;margin-bottom:24px;text-transform:uppercase}
+.price-main{font-size:52px;font-weight:400;color:#f9f5f2;line-height:1}
+.price-main span{font-size:22px;vertical-align:top;margin-top:10px;display:inline-block}
+.price-parcelas{font-family:'Helvetica Neue',Arial,sans-serif;font-size:14px;color:#c6a899;margin:8px 0 32px}
+.price-cta{width:100%;padding:18px;font-size:16px;margin-bottom:16px}
+.price-garantia{font-family:'Helvetica Neue',Arial,sans-serif;font-size:12px;color:#c6a899;letter-spacing:0.5px}
+.price-question{max-width:560px;margin:48px auto 0;font-size:18px;color:#e1c9be;font-style:italic;line-height:1.8}
+
+footer{background:#2c1f1c;padding:32px 24px;text-align:center}
+footer p{font-family:'Helvetica Neue',Arial,sans-serif;font-size:13px;color:#8b6b60}
+</style>
+</head>
+<body>
+
+<!-- HERO -->
+<section class="hero">
+  <p class="hero-tag sans">30 Práticas de Re(encontro)</p>
+  <h1>E se em 30 dias você conseguisse descansar <em>sem culpa</em>, dizer não <em>sem medo</em> e voltar a se reconhecer?</h1>
+  <p>Não é promessa de transformação milagrosa. É um convite diário para parar de se deixar por último na vida que você já tem.</p>
+  <button class="btn-primary">Quero começar agora</button>
+</section>
+
+<!-- DOR -->
+<section class="pain">
+  <div class="container">
+    <h2>Você acorda já pensando no que precisa fazer.</h2>
+    <p>Resolve. Organiza. Entrega.</p>
+    <p>E no meio disso tudo…</p>
+    <ul class="pain-list">
+      <li>Você pensa antes de falar para não parecer exagerada</li>
+      <li>Revisa mensagens para não "soar errada"</li>
+      <li>Diz sim quando queria dizer não</li>
+      <li>Adia o descanso porque "não é o momento"</li>
+    </ul>
+    <p>E mesmo fazendo tudo… ainda sente que está devendo. Ainda se sente insuficiente. Ainda se sente cansada de um jeito que não passa.</p>
+    <div class="warning-box">
+      <h3>O problema real</h3>
+      <p>Você não está cansada só porque faz demais.</p>
+      <p>Você está cansada de se ajustar o tempo inteiro, evitar conflitos, carregar tudo sozinha, viver tentando não decepcionar.</p>
+      <p>E enquanto sustenta tudo… vai se deixando para depois. Isso não aconteceu de uma vez. Aconteceu aos poucos. É por isso que parece normal. Mas não é.</p>
+      <p style="color:#e1c9be;margin-top:20px;font-style:italic">Continuar assim tem um custo:</p>
+      <ul>
+        <li>Cansaço constante</li>
+        <li>Irritação silenciosa</li>
+        <li>Distância de si mesma</li>
+        <li>Sensação de não caber na própria vida</li>
+      </ul>
+    </div>
+  </div>
+</section>
+
+<!-- PRODUTO -->
+<section class="product">
+  <div class="container-wide">
+    <h2>30 Práticas de Re(encontro)</h2>
+    <p class="subtitle">Um guia prático para sair do automático e voltar para você — no meio da vida real.<br>Sem rotina perfeita. Sem mais cobrança. Sem precisar mudar tudo.</p>
+
+    <div class="ebook-showcase">
+      <img class="ebook-img" src="https://drive.google.com/uc?export=view&id=1_0KNGmwUhEPZadnwhlnswMBe73_BOH-R" alt="Capa do guia 30 Práticas de Re(encontro)" id="ebookImg"/>
+      <div class="ebook-text">
+        <h3>Um mês para lembrar de você</h3>
+        <p>Um guia com 30 práticas simples e profundas para mulheres que estão cansadas de se deixar por último — e querem voltar a existir na própria vida, sem culpa e sem precisar mudar tudo.</p>
+      </div>
+    </div>
+
+    <div class="how-works">
+      <div class="hw-item">
+        <h4 class="sans">30 práticas</h4>
+        <p>Uma por dia, simples e profundas, com convite prático e pergunta de reflexão</p>
+      </div>
+      <div class="hw-item">
+        <h4 class="sans">Áudios curtos</h4>
+        <p>De 2 a 3 minutos. Para ouvir no caminho, no banho, no intervalo</p>
+      </div>
+      <div class="hw-item">
+        <h4 class="sans">Reflexões guiadas</h4>
+        <p>Para você se escutar de verdade, dentro da rotina que já existe</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- DELIVERABLES -->
+<section class="deliverables">
+  <div class="container-wide">
+    <h2 style="font-size:clamp(20px,3vw,32px);font-weight:400;margin-bottom:8px;color:#2c1f1c">O que você recebe</h2>
+    <div class="d-grid">
+      <div class="d-card">
+        <span class="d-tag sans">PDF</span>
+        <h4 class="sans">Guia completo</h4>
+        <p>30 práticas de reencontro — uma para cada dia do mês, com convite prático e pergunta de reflexão</p>
+      </div>
+      <div class="d-card">
+        <span class="d-tag sans">Áudio</span>
+        <h4 class="sans">30 áudios de aprofundamento</h4>
+        <p>Um áudio exclusivo para cada prática. Cuidar de si não precisa de tempo extra — precisa de intenção</p>
+      </div>
+      <div class="d-card">
+        <span class="d-tag sans">Vídeo</span>
+        <h4 class="sans">4 mini aulas clínicas</h4>
+        <p>Aprofundamento com base em psicologia para entender e transformar seus padrões</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- MINI AULAS -->
+<section class="aulas">
+  <div class="container-wide">
+    <h2>As 4 mini aulas</h2>
+    <p class="subtitle">Aprofundamento clínico para o que você está vivendo</p>
+    <div class="aulas-grid">
+      <div class="aula-item">
+        <span class="aula-num">Aula 01</span>
+        <h4>Como sair do modo sobrevivência</h4>
+        <p>O que acontece no seu corpo e mente quando você vive no automático — e como começar a mudar</p>
+      </div>
+      <div class="aula-item">
+        <span class="aula-num">Aula 02</span>
+        <h4>Falando sobre limites</h4>
+        <p>Por que dizer não é tão difícil e como começar a se posicionar sem culpa</p>
+      </div>
+      <div class="aula-item">
+        <span class="aula-num">Aula 03</span>
+        <h4>A culpa que vem com o descanso</h4>
+        <p>De onde vem essa voz que diz que você não merece parar — e como reconhecê-la</p>
+      </div>
+      <div class="aula-item">
+        <span class="aula-num">Aula 04</span>
+        <h4>Autocuidado em 1º lugar</h4>
+        <p>O que autocuidado realmente significa além da estética — e como ele cabe em qualquer rotina</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- RESULTADOS -->
+<section class="results">
+  <div class="container-wide">
+    <h2>Você não vira outra pessoa.<br>Mas começa a:</h2>
+    <div class="r-grid">
+      <div class="r-item"><p>Se perceber antes de se esgotar</p></div>
+      <div class="r-item"><p>Diminuir a culpa ao descansar</p></div>
+      <div class="r-item"><p>Sustentar pequenos "nãos"</p></div>
+      <div class="r-item"><p>Parar de se deixar por último</p></div>
+    </div>
+  </div>
+</section>
+
+<!-- OBJEÇÕES -->
+<section class="objections">
+  <div class="container">
+    <h2 style="font-size:clamp(20px,3vw,30px);font-weight:400;margin-bottom:32px;color:#2c1f1c">Talvez você esteja pensando…</h2>
+    <div class="obj-list">
+      <div class="obj-item">
+        <p class="obj-question sans">✗ &nbsp;"Eu não tenho tempo"</p>
+        <p class="obj-answer">Você já vive sem tempo. E isso está te custando. As práticas levam poucos minutos — mas mudam a forma como você vive o seu dia.</p>
+      </div>
+      <div class="obj-item">
+        <p class="obj-question sans">✗ &nbsp;"Isso é só mais um conteúdo"</p>
+        <p class="obj-answer">Se fosse, você já teria resolvido. Isso aqui não é para assistir. É para aplicar.</p>
+      </div>
+      <div class="obj-item">
+        <p class="obj-question sans">✗ &nbsp;"Não sei se vai funcionar pra mim"</p>
+        <p class="obj-answer">Continuar como está já não está funcionando. Você não precisa ter certeza. Precisa só começar.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- BIO -->
+<section class="bio">
+  <div class="container">
+    <div class="bio-inner">
+      <img class="bio-photo" src="https://drive.google.com/uc?export=view&id=16l73b4XGM833O299P8I5sb44dVdeWL64" alt="Raquel, psicóloga" id="bioPhoto"/>
+      <div class="bio-content">
+        <h2>Quem criou este guia</h2>
+        <p>Sou Raquel, psicóloga <span class="crp">CRP 6/166238</span>, com anos de atuação em consultório particular e psicologia hospitalar.</p>
+        <p>Mas antes de ser a profissional que acompanha outras mulheres nesse processo, eu fui a mulher que não conseguia parar. Que dava conta de tudo, funcionava, entregava. E por dentro estava se esvaziando sem entender bem por quê.</p>
+        <p>Foi a partir dessa experiência — e de anos ouvindo histórias parecidas no consultório — que percebi que esse padrão não é fraqueza nem frescura. É o resultado de uma vida inteira aprendendo a se ajustar, agradar e carregar.</p>
+        <p style="font-style:italic;color:#8b443c">Criei este guia para oferecer o que eu gostaria de ter tido: um caminho simples, sem exigência — só um convite diário para voltar a se escutar.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- PRICING -->
+<section class="pricing">
+  <h2>Acesso completo ao guia</h2>
+  <p class="subtitle sans">PDF + 30 áudios + 4 mini aulas com aprofundamento clínico</p>
+  <div class="price-card">
+    <p class="price-old sans">De R$ 97 a R$ 147</p>
+    <span class="price-badge sans">Oferta especial</span>
+    <div style="margin-bottom:4px">
+      <p class="price-main sans"><span>R$</span> 37<span style="font-size:22px">,00</span></p>
+    </div>
+    <p class="price-parcelas sans">ou 12x de R$ 3,70</p>
+    <button class="btn-primary price-cta sans">Quero começar agora →</button>
+    <p class="price-garantia sans">✓ Acesso imediato &nbsp;·&nbsp; ✓ Garantia de 7 dias &nbsp;·&nbsp; ✓ Sem risco</p>
+  </div>
+  <p class="price-question">Você já sabe que continuar como está tem um custo.<br>A pergunta é quanto tempo você ainda vai esperar<br>para se colocar em primeiro lugar.</p>
+</section>
+
+<footer>
+  <p>© 2025 Raquel · Psicóloga CRP 6/166238 · Todos os direitos reservados</p>
+</footer>
+
+<script>
+function toDataURL(file) {
+  return new Promise(res => {
+    const r = new FileReader();
+    r.onload = e => res(e.target.result);
+    r.readAsDataURL(file);
+  });
+}
+
+// Load images passed via window.initialImages if available
+// Since we can't receive files directly, we embed via object URLs
+// The images were passed as uploads — we'll reference them from the parent context
+// by injecting them after load
+window.setEbookImage = function(src) {
+  document.getElementById('ebookImg').src = src;
+}
+window.setBioPhoto = function(src) {
+  document.getElementById('bioPhoto').src = src;
+}
+
+// Try to get images from parent frame if available
+try {
+  if (window.parent && window.parent.uploadedImages) {
+    const imgs = window.parent.uploadedImages;
+    if (imgs[0]) window.setEbookImage(imgs[0]);
+    if (imgs[1]) window.setBioPhoto(imgs[1]);
+  }
+} catch(e) {}
+</script>
+
+<script>
+// Self-contained image injection using fetch + blob
+// The artifact can't directly access uploaded files, so we create
+// colored placeholder boxes that match the brand palette as fallback
+const ebook = document.getElementById('ebookImg');
+const bio = document.getElementById('bioPhoto');
+
+// Style placeholders until real images load
+function placeholder(el, text, bg, color) {
+  el.onerror = function() {
+    const c = document.createElement('canvas');
+    c.width = 400; c.height = 400;
+    const ctx = c.getContext('2d');
+    ctx.fillStyle = bg;
+    ctx.fillRect(0,0,400,400);
+    ctx.fillStyle = color;
+    ctx.font = 'bold 18px Georgia';
+    ctx.textAlign = 'center';
+    ctx.fillText(text, 200, 210);
+    el.src = c.toDataURL();
+    el.onerror = null;
+  };
+}
+
+placeholder(ebook, 'Capa do guia', '#386060', '#e1c9be');
+placeholder(bio, 'Foto Raquel', '#e1c9be', '#8b443c');
+</script>
+</body>
+</html>
