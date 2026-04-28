@@ -93,13 +93,12 @@ section{padding:72px 24px}
 .bio{background:#f9f5f2}
 .bio-inner{display:grid;grid-template-columns:auto 1fr;gap:48px;align-items:start}
 @media(max-width:600px){.bio-inner{grid-template-columns:1fr}}
-..bio-photo{
-  width:260px;
-  max-width:100%;
-  height:auto;
-  border-radius:8px;
-  object-fit:contain;
-  display:block;
+.bio-photo{
+  width:200px;
+  height:260px;
+  object-fit:cover;
+  object-position:top center;
+
 }
 .bio-content h2{font-size:clamp(20px,3vw,30px);font-weight:400;margin-bottom:20px;color:#2c1f1c}
 .bio-content p{font-size:16px;color:#4a3530;margin-bottom:14px;line-height:1.8}
@@ -289,7 +288,7 @@ footer p{font-family:'Helvetica Neue',Arial,sans-serif;font-size:13px;color:#8b6
     <div class="bio-inner">
       <img 
   class="bio-photo" 
-  src="https://raw.githubusercontent.com/psiraquelcarvalho-ui/30praticasdereencontro/main/raquel.jpg" 
+  src="https://raw.githubusercontent.com/psiraquelcarvalho-ui/30praticasdereencontro/main/IMG_20240803_144826.jpg" 
   alt="Raquel, psicóloga" 
   id="bioPhoto"
 />
